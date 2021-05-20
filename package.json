@@ -6,6 +6,6 @@
   "scripts": {
     "test": "echo \"No test specified\""
   },
-  "author": "glafche",
+  "author": "Borche Glafche <borcheglafche@gmail.com>",
   "license": "ISC"
 }
