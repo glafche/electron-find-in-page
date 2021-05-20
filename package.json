@@ -1,0 +1,11 @@
+{
+  "name": "electron-find-in-page",
+  "version": "1.0.0",
+  "description": "Find and navigate to all search text matches",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "glafche",
+  "license": "ISC"
+}
