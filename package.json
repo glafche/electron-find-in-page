@@ -1,14 +1,20 @@
 {
   "name": "electron-find-in-page",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Find and navigate to all search text matches",
+  "repository": "https://github.com/glafche/electron-find-in-page",
+  "bugs": "https://github.com/glafche/electron-find-in-page/issues",
+  "homepage": "https://github.com/glafche/electron-find-in-page",
+  "keywords": [
+    "electron",
+    "find",
+    "chrome",
+    "search",
+    "page"
+  ],
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"No test specified\""
-  },
-  "np": {
-    "yarn": false,
-    "contents": "dist"
   },
   "author": "Borche Glafche <borcheglafche@gmail.com>",
   "license": "ISC"
