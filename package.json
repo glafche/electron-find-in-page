@@ -6,6 +6,10 @@
   "scripts": {
     "test": "echo \"No test specified\""
   },
+  "np": {
+    "yarn": false,
+    "contents": "dist"
+  },
   "author": "Borche Glafche <borcheglafche@gmail.com>",
   "license": "ISC"
 }
