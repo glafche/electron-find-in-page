@@ -16,14 +16,14 @@ Find all matches for the text in electron app
 
 ## Install
 ``` 
-$   npm install electron-find --save
+$   npm i electron-find-in-page
 ```
 
 ## Usage
 ```
 # import module
 import { remote, ipcRenderer } from 'electron'
-import { FindInPage } from 'electron-find'
+import { FindInPage } from 'electron-find-in-page'
 
 # create instance of FindInPage with default config
 let findInPage = new FindInPage(remote.getCurrentWebContents())
