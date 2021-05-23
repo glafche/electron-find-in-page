@@ -1,6 +1,6 @@
 {
   "name": "electron-find-in-page",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "description": "Find and navigate to all search text matches",
   "repository": "https://github.com/glafche/electron-find-in-page",
   "bugs": "https://github.com/glafche/electron-find-in-page/issues",

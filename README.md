@@ -4,12 +4,8 @@
 Find all matches for the text in electron app
 
 ## Features
-- depend on the API of electron's findInPage
-- support user config UI of find interface
-- support case-sensitive
-- Auto find when user inputing is change
-- The find interface is separated from electron view
-- support electron version ^1.8.0, ^2.0.0, ^3.0.0, ^4.0.0
+- Auto find when input changes
+- support electron version ^11.0.0
 - support platform of Windows, Linux, Mac
 
 ## Demo
