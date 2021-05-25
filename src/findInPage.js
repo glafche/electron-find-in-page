@@ -107,6 +107,7 @@ class FindInPage extends Find {
         if (!this.initialize()) return false;
         setTimeout(() => {
             this[findBox].style["visibility"] = "visible";
+            this[findInput].style["visibility"] = "visible";
             lockNext.call(this);
             focusInput.call(this);
         }, 10);
@@ -130,6 +131,8 @@ class FindInPage extends Find {
         move(this[findBox], 0 - this[findBox].offsetHeight - 10, this.duration)
             .then(() => {
                 this[findBox].style["visibility"] = "hidden";
+                this[findInput].style["visibility"] = "hidden";
+
             })
             .catch((err) => {
                 throw err;
